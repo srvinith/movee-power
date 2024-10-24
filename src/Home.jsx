@@ -10,7 +10,7 @@ import vec from './assets/images/vec-q.png'
 import ev from './assets/images/ev.png'
 import Slider from './Slider';
 import { Card } from 'react-bootstrap';
-import map from './assets/images/m-img.png'
+// import map from './assets/images/m-img.png'
 import SliderSecond from './SliderSecond';
 import twit from './assets/images/twit.png'
 import insta from './assets/images/insta.png'
