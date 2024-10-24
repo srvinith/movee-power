@@ -111,12 +111,12 @@ function App() {
       <section className='banner-app' >
         <h3> WE ARE AVAILABLE ON </h3>
         <div className="d-flex px-3 apps">
-          <a href="https://play.google.com/store/apps/details?id=com.moveepower&hl=en&pli=1">
+          <Link to="https://play.google.com/store/apps/details?id=com.moveepower&hl=en&pli=1">
             <img src={googleplay} alt="googleplay" />
-          </a>
-          <a href="https://apps.apple.com/in/app/moveepower/id6670391662">
+          </Link>
+          <Link to="https://apps.apple.com/in/app/moveepower/id6670391662">
             <img src={appstore} alt="appstore" />
-          </a>
+          </Link>
         </div>
 
       </section>
@@ -309,26 +309,26 @@ function App() {
               </div>
               <div className="col-6 col-md-4">
                 <div className="social-logo">
-                  <a href="https://www.facebook.com/moveepower"><img src={fb} alt="fb" /></a>
-                  <a href=""><img src={twit} alt="twit" /></a>
-                  <a href=""><img src={linked} alt="linkedin" /></a>
-                  <a href="https://www.instagram.com/movee_power/"><img src={insta} alt="insta" /></a>
+                  <Link to="https://www.facebook.com/moveepower"><img src={fb} alt="fb" /></Link>
+                  <Link to=""><img src={twit} alt="twit" /></Link>
+                  <Link to=""><img src={linked} alt="linkedin" /></Link>
+                  <Link to="https://www.instagram.com/movee_power/"><img src={insta} alt="insta" /></Link>
                 </div>
               </div>
               <div className="col-12 col-md-4">
                 <h2 className='text-white'>We Are Available On</h2>
                 <div className="app-link">
-                  <a href="https://play.google.com/store/apps/details?id=com.moveepower&hl=en&pli=1"><img src={googleplay} alt="playstore" /></a>
-                  <a href="https://apps.apple.com/in/app/moveepower/id6670391662"><img src={appstore} alt="" /></a>
+                  <Link to="https://play.google.com/store/apps/details?id=com.moveepower&hl=en&pli=1"><img src={googleplay} alt="playstore" /></Link>
+                  <Link to="https://apps.apple.com/in/app/moveepower/id6670391662"><img src={appstore} alt="" /></Link>
                 </div>
               </div>
             </div>
             <ul className='list-navs my-4'>
-              <li><a href="/">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#product">Product</a></li>
-              <li><a href="#blog">Blog</a></li>
-              <li><a href="#contact">Contact Us</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="#about">About Us</Link></li>
+              <li><Link to="#product">Product</Link></li>
+              <li><Link to="#blog">Blog</Link></li>
+              <li><Link to="#contact">Contact Us</Link></li>
             </ul>
             {/* <p className='text-white my-5 fs-5 text-center'>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo possimus iste sapiente vitae ipsa dolorem obcaecati soluta vero! Doloremque.
