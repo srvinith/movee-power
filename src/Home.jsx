@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import googleplay from './assets/images/googleplay.png'
 import appstore from './assets/images/appstore.png'
-// import mobMap from './assets/images/mob-map.png'
 import logo from './assets/images/logo.png'
 import logo2 from './assets/images/move-g.png'
 import Header from './Header';
@@ -10,21 +9,17 @@ import vec from './assets/images/vec-q.png'
 import ev from './assets/images/ev.png'
 import Slider from './Slider';
 import { Card } from 'react-bootstrap';
-// import map from './assets/images/m-img.png'
 import SliderSecond from './SliderSecond';
 import twit from './assets/images/twit.png'
 import insta from './assets/images/insta.png'
 import fb from './assets/images/fb.png'
 import linked from './assets/images/linked.png'
 import Mapsection from './Mapsection';
-// import Map from './Map';
 import Testimonial from './Testimonial';
 import { useState } from 'react';
 import b1 from './assets/images/b1.png'
 import b22 from './assets/images/b22.png'
 import b2 from './assets/images/b2.png'
-// import science from './science';
-// import b3 from './assets/images/b3.png'
 
 function App() {
   const [showModal, setShowModal] = useState(false);
