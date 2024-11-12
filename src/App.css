@@ -654,6 +654,13 @@ nav {
     font-size: 14px;
   }
 
+  .lab {
+    font-size:14px;
+    font-weight: 600;
+    padding-right: 0px;
+    width: 20%;
+  }
+
 }
 
 
