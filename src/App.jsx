@@ -18,7 +18,7 @@ const App = () => {
     }, [])
   })
   return (
-    <div>
+    <div className='app'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/science" element={<Science />} />
