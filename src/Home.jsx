@@ -20,6 +20,7 @@ import { useState } from 'react';
 import b1 from './assets/images/b1.png'
 import b22 from './assets/images/b22.png'
 import b2 from './assets/images/b2.png'
+import Map from './Map';
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -75,7 +76,7 @@ function App() {
 
       <section className="map-section">
         <div className="top-1">
-          {/* <Map/> */}
+          <Map/>
 
         </div>
         <div className="top-map">

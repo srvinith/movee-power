@@ -117,14 +117,14 @@ nav {
 /*-------------------map section--------  */
 
 .map-section {
-  height: 100vh;
-  width: 100%;
-  background-image: url(./assets/images/tn.png);
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* background-image: url(./assets/images/tn.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .mob-img {
@@ -138,7 +138,7 @@ nav {
 
 .box-map {
   background-color: #fff;
-  width: 100%;
+  width: 300px;
   color: #000;
   height: 400px;
   margin-top: 100px;
@@ -448,6 +448,14 @@ nav {
   width: 200px;
 }
 
+.top-map {
+  position: absolute;
+  top: 0;
+  right: 25%;
+}
+
+
+
 .social-logo {
   border-left: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -559,9 +567,7 @@ nav {
     margin: 0 auto;
   }
 
-  .top-map {
-    position: relative;
-  }
+
 
   .top-1 {
     position: relative;
@@ -663,6 +669,18 @@ nav {
     font-weight: 600;
     padding-right: 0px;
     width: 20%;
+  }
+
+  .top-map {
+    position: relative;
+    top: 50%;
+    right: 0;
+  }
+
+  .box-map {
+    background-color: #fff;
+    width: 100%;
+    
   }
 
 }
