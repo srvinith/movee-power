@@ -21,6 +21,8 @@ import b1 from './assets/images/b1.png'
 import b22 from './assets/images/b22.png'
 import b2 from './assets/images/b2.png'
 import MapEmbed from './Iframe';
+import red from './assets/images/red.png'
+import green from './assets/images/green.png'
 // import Map from './Map';
 
 function App() {
@@ -95,8 +97,8 @@ function App() {
                     <p className='py-3'>We are expanding our base all over India. Come Join Hands with Us </p>
                   </div>
                   <div className="second-box">
-                    <p><img src="" alt="" /> Avilable Chargers</p>
-                    <p> <img src="" alt="" />Upcoming Chargers</p>
+                    <p><img src={green} alt="green" /> Avilable Chargers</p>
+                    <p> <img src={red} alt="red" />Upcoming Chargers</p>
                   </div>
                 </div>
               </div>

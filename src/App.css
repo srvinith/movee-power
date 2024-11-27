@@ -7,10 +7,18 @@ body {
   font-family: "gotham", sans-serif;
   /* overflow: hidden !important; */
 }
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}
 .app{
   overflow-x: hidden;
 }
 
+.second-box p img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
 .main-header {
   position: relative;
   height: 120vh;
